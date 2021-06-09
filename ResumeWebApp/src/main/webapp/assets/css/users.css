@@ -1,0 +1,25 @@
+body{
+    font-size: 20px;
+}
+.mycontainer div{
+    margin-bottom: 10px;
+}
+
+.control_panel input{
+    padding: 5px;
+    margin-left: 10px;
+
+}
+.control_panel label{
+    display: inline-block;
+    width: 70px;
+
+}
+
+
+.control_panel_group{
+    margin-top: 5px;
+}
+
+
+
