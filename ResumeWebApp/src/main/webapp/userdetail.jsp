@@ -58,6 +58,7 @@
                     <input class="form-control btn-success" type="submit" name="save" value="Save"/>
                     <input type="hidden" name="action" value="update"/>
                     <input type="hidden" name="action" value="delete"/>
+                    <input type="hidden" name="action" value="info"/>
 
 
                     <br/>
@@ -65,7 +66,7 @@
 
             </form>
         </div>
-
+    </div>
 
 </body>
 </html>

@@ -24,5 +24,7 @@ public interface UserDaoInter {
     public boolean removeUser(int id);
     
     public boolean addUser(User u);
+
+    public User findByEmailAndPassword(String email, String password);
     
 }

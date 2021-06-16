@@ -47,6 +47,21 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
         return new User(id, name, surname, email, phone, address, profileDesc, nationality, birthplace, birthdate);
     }
 
+    private User getUserSimple(ResultSet rs) throws Exception {
+        int id = rs.getInt("id");
+        String name = rs.getString("name");
+        String surname = rs.getString("surname");
+        String email = rs.getString("email");
+        String phone = rs.getString("phone");
+        String profileDesc = rs.getString("profile_description");
+        int nationalityId = rs.getInt("nationality_id");
+        int birthplaceId = rs.getInt("birthplace_id");
+        Date birthdate = rs.getDate("birthdate");
+
+
+        return new User(id, name, phone,surname, email, profileDesc,birthdate,null,null);
+    }
+
     @Override
     public List<User> getAll(String name,String surname,String address) {
         List<User> result = new ArrayList<>();
@@ -191,4 +206,24 @@ public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
             }
     }
 
+    @Override
+    public User findByEmailAndPassword(String email, String password) {
+        User result = null;
+        try (Connection c = connect();){
+            PreparedStatement stmt = c.prepareStatement("select * from user u where u.email=? and u.password=?");
+            stmt.setString(1,email);
+            stmt.setString(2,password);
+
+            ResultSet rs = stmt.executeQuery();
+
+            while(rs.next()) {
+               result = getUserSimple(rs);
+
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    return result;
     }
+
+}

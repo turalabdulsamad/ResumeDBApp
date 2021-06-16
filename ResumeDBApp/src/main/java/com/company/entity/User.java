@@ -52,7 +52,7 @@ public class User {
         this.address = address;
     }
 
-    public User() {
+    public User(int id, String name, String phone, String surname, String email, String profileDesc, Date birthdate, Object o, Object o1) {
     }
 
     @Override

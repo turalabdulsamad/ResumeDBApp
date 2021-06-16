@@ -8,6 +8,7 @@ package com.company.resume.controller;
 import com.company.dao.inter.UserDaoInter;
 import com.company.entity.User;
 import com.company.main.Context;
+import com.company.resume.util.ControllerUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,10 +26,6 @@ import java.util.List;
  */
 @WebServlet(name = "UserController", urlPatterns = {"/users"})
 public class UserController extends HttpServlet {
-
-    private UserDaoInter userDao = Context.instanceUserDao();
-
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -40,7 +37,11 @@ public class UserController extends HttpServlet {
 
         List<User> list = userDao.getAll(name, surname, address);
         request.setAttribute("list",list);
-        request.getRequestDispatcher("users.jsp").forward(request, response);
-
+        if(request.getSession().getAttribute("loggedInUser")!=null) {
+            request.getRequestDispatcher("users.jsp").forward(request, response);
+        }
+        else{
+           response.sendRedirect("login");
+        }
     }
 }
