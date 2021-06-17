@@ -9,16 +9,18 @@ import com.company.dao.impl.UserDaoImpl;
 import com.company.dao.inter.UserDaoInter;
 import com.company.entity.Country;
 import com.company.entity.User;
+
 import java.util.List;
 import javax.swing.text.html.parser.Entity;
 
 /**
- *
  * @author dell
  */
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
+
     }
 
 }

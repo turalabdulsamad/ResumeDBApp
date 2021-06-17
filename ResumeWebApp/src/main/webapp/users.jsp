@@ -35,6 +35,7 @@
             <form action="users.jsp" method="GET">
                 <div class="form-group">
                     <label for="name"> Name: </label>
+
                     <input onkeyup="writeWhatIamTyping()" placeholder="Enter name" class="form-control" type="text"
                            name="name" value=""/>
                 </div>
@@ -129,6 +130,12 @@
         </div>
     </div>
 </div>
+</div>
+<div class="container">
+    <form class="form-group" action="logout" method="POST">
+        <input type="submit" value="Logout" name="logout" class="btn btn-primary logout"/>
+        <input type="hidden" name="action" value="Logout"/>
+    </form>
 </div>
 
 

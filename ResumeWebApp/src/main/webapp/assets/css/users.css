@@ -42,3 +42,9 @@ body{
     width: 500px;
     height: 500px;
 }
+
+.logout {
+    position: absolute;
+    top: 12px;
+    right: 119px;
+}
