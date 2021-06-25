@@ -1,4 +1,5 @@
-/ResumeDesktopApp/target/
-/ResumeDBApp/target/
-/ResumeWebApp/target/
-
+jdbc/ResumeDesktopApp/target/
+jdbc/ResumeDBApp/target/
+jdbc/ResumeWebApp/target/
+jpa/ResumeDBApp/target/
+jpa/ResumeWebApp/target/
