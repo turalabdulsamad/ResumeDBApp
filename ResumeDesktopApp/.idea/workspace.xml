@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36d89c3e-779b-4eca-8915-bb3eff04d0da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/ResumeDBApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/impl/CountryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/impl/SkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/CountryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/SkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/UserDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/entity/EmploymentHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/entity/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/entity/UserSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/main/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/src/main/java/com/company/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/ResumeDBAppJDBC-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/impl/SkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/SkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/UserDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/dao/inter/UserSkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/entity/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/entity/EmploymentHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/entity/Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/entity/UserSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/main/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/classes/com/company/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJDBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__at_favre_lib_bcrypt_0_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__at_favre_lib_bytes_0_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_commonj_sdo_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_eclipselink_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_javax_persistence_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_antlr_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_jpql_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_jpa_modelgen_processor_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_hibernate_hibernate_core_5_5_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/ResumeDBAppJPA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/impl/CountryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/impl/SkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/CountryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/SkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/UserDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/entity/EmploymentHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/entity/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/entity/UserSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/main/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/java/com/company/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/ResumeDbAppJPA-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/impl/SkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/SkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/UserDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/dao/inter/UserSkillDaoInter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/Country_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/EmploymentHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/EmploymentHistory_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/Skill_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/UserSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/UserSkill_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/entity/User_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/main/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/classes/com/company/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/generated-sources/annotations/com/company/entity/Country_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/generated-sources/annotations/com/company/entity/EmploymentHistory_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/generated-sources/annotations/com/company/entity/Skill_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/generated-sources/annotations/com/company/entity/UserSkill_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/generated-sources/annotations/com/company/entity/User_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeDBAppJPA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/ResumeWebApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/byte-buddy-1.10.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/hibernate-core-5.4.11.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/jandex-2.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/controller/LogoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/controller/UserDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/controller/UserInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/java/com/company/resume/util/ControllerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/resources/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/assets/js/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/userinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/src/main/webapp/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/util/ControllerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/ResumeDBApp-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/bcrypt-0.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/bytes-0.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/assets/js/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/userinfo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/ResumeWebApp/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/controller/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/controller/UserDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/controller/UserInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/com/company/resume/util/ControllerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/classes/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/ResumeWebApp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbAppJPASpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/main/java/com/company/main/ResumeDbAppJpaSpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbAppJPASpring/src/test/java/com/company/main/ResumeDbAppJpaSpringApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/main/MainUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/DetailsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/EmploymentHistoryPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/EmploymentHistoryPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/EmploymentHistoryPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/EmploymentHistoryPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/ProfilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/ProfilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/resume/panel/SkillsPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/ResumeDbAppJpaSpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/CountryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/SkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserRepositoryCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserRepositoryCustomImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/CountryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/SkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/entity/EmploymentHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/entity/Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/entity/UserSkill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/java/com/company/service/inter/UserServiceInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/ResumeDbAppJPASpring/src/test/java/com/company/ResumeDbAppJpaSpringApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="75" />
+    <option name="width" value="1346" />
+    <option name="height" value="621" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDesktopApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDesktopApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ResumeDbAppJPASpring" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.resume.main.MainUser" />
+      <module name="ResumeDesktopApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.resume.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36d89c3e-779b-4eca-8915-bb3eff04d0da" name="Default Changelist" comment="" />
+      <created>1624727910105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624727910105</updated>
+      <workItem from="1624727913950" duration="12000" />
+      <workItem from="1624898484744" duration="626000" />
+      <workItem from="1624943170581" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="671000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
