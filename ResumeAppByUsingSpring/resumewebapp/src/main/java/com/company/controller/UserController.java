@@ -2,6 +2,7 @@ package com.company.controller;
 
 import com.company.entity.User;
 import com.company.form.UserForm;
+import com.company.service.DummyService;
 import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -39,6 +40,24 @@ public class UserController {
         List<User> list = userService.getAll(u.getName(), u.getSurname(), u.getSurname());
         mv.addObject("users", list);
         return mv;
+    }
+    @RequestMapping(method = RequestMethod.GET, value = "/login")
+    public String login() {
+        return "login";
+    }
+    @RequestMapping(method = RequestMethod.GET, value = "/logout")
+    public String logout() {
+
+        return "logout";
+    }
+
+    @Autowired
+    DummyService dummyService;
+
+    @RequestMapping(method = RequestMethod.GET, value = "/foo")
+    public String foo() {
+    dummyService.foo();
+        return "users";
     }
     @ModelAttribute("user")
     public UserForm getEmptyUserForm() {
